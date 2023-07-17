@@ -1,0 +1,10 @@
+body {
+    color: black;
+}
+.card {
+    height: 350px;
+    width: 15em;
+}
+.card-img-top {
+    height: 40% !important;
+}

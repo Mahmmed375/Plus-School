@@ -1,0 +1,367 @@
+:root {
+    --color1: #fff;
+    --color2: #757575;
+    --color3: #000;
+    --botton-color: #7095ff;
+    --background-color-body: #ffffff;
+    --background-color-card: rgb(66 120 163 / 64%);
+    --background-color-footr-nav: #ffffff;
+    --form-back: #ced4da;
+    --border: rgb(217 217 217);
+    --active: #0a58ca;
+    --error: rgb(248, 148, 34);
+    --botton-color-hover: #778bc7b1;
+    --spashal-actve: #e9ecef8c;
+}
+/* صفحة عرض معلومات المدرسة */
+@media (max-width: 400px) {
+    .hiden_sh {
+        display: none !important;
+    }
+    .show_cours {
+        /* width: 100%; */
+        display: inline !important;
+        width: calc(100% / 4 - 15px);
+        margin: 0 !important;
+        padding: 1px !important;
+        font-size: 13px !important;
+    }
+    .show_cours1 {
+        font-size: 0.8em !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 14px !important;
+    }
+    .shoeing ul li p {
+        margin: 0 !important;
+        padding: 5px !important;
+    }
+    .li-lin {
+        border-bottom: 1px solid #fff;
+    }
+}
+@media (min-width: 400px) {
+    .hiden_sh {
+        display: none !important;
+    }
+    .show_cours {
+        /* width: 100%; */
+        display: inline !important;
+        width: calc(100% / 4 - 15px);
+        margin: 0 !important;
+        padding: 1px !important;
+        font-size: 1.1em !important;
+    }
+    .show_cours1 {
+        font-size: 0.8em !important;
+        margin: 0 !important;
+        padding: 2px !important;
+        font-size: 1.1em !important;
+    }
+    .shoeing ul li p {
+        margin: 0 !important;
+        padding: 5px !important;
+    }
+    .li-lin {
+        border-bottom: 1px solid #fff;
+    }
+}
+@media (min-width: 650px) {
+    .show_cours,
+    .hiden_sh {
+        display: inline-block !important;
+        width: calc(100% / 5 - 5px);
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 0.9em !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .show_cours1 {
+        font-size: 0.8em !important;
+        margin: 0 !important;
+        font-size: 0.97em !important;
+        width: calc(100% / 5 - 10px);
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .shoeing ul li p {
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+    .li-lin {
+        border-bottom: 1px solid #fff;
+    }
+}
+@media (min-width: 800px) {
+    .show_cours,
+    .hiden_sh {
+        display: inline-block !important;
+        width: calc(100% / 5 - 10px) !important;
+        margin: normal !important;
+        padding: 0 !important;
+        font-size: 1em !important;
+    }
+
+    .show_cours1 {
+        font-size: 0.8em !important;
+        margin: 0 !important;
+        font-size: 0.97em !important;
+        width: calc(100% / 5 - 10px);
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .shoeing ul li p {
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+    .li-lin {
+        border-bottom: 1px solid #fff;
+    }
+}
+/* صفحة عرض معلومات المدرسة */
+
+.card > .list-group:last-child,
+.showinformatto {
+    background-color: var(--form-back) !important;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.showinformatton {
+    width: 100%;
+    font-size: 1.5em;
+    height: auto;
+    height: 90%;
+}
+.showinformatton li {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 5px;
+    position: relative;
+}
+.showinformatton li span {
+    width: calc(100% / 2 - 20%);
+    text-align: start;
+    margin: 0;
+    color: var(--active);
+}
+.showinformatton li p {
+    width: calc(100% / 2 + 20%);
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
+.card-titelm {
+    text-align: center;
+}
+
+@media (max-width: 511px) {
+    .showinformatton {
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        padding: 5px;
+    }
+    .showinformatton li {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .showinformatton li span {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        padding: 5px;
+    }
+    .showinformatton li p {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding: 5px;
+    }
+}
+
+.shoeing div h3 {
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .shoeing {
+        height: auto;
+        padding-bottom: 10px;
+        font-size: 0.5em;
+    }
+    .shoeing ul {
+        width: 100%;
+        padding: 0;
+    }
+    .shoeing ul li span {
+        width: 20%;
+        text-align: center;
+        display: inline-block;
+    }
+    .shoeing ul li p {
+        display: inline-block;
+        text-align: center;
+        /* border: solid var(--color2);
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        padding: 10px; */
+    }
+}
+@media (max-width: 511px) {
+    .shoeing {
+        height: auto;
+        padding-bottom: 10px;
+        font-size: 5px;
+    }
+
+    .shoeing ul {
+        width: 100%;
+        padding: 0;
+    }
+    .shoeing ul li span {
+        display: block;
+        font-size: 1.2em;
+        text-align: center;
+        color: rgb(199, 140, 140);
+        font-weight: bold;
+    }
+
+    .shoeing ul li p {
+        display: block;
+        width: calc(100% / 3) !important;
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+@media (min-width: 511px) {
+    .shoeing {
+        height: auto;
+        padding-bottom: 10px;
+        font-size: 0.5em;
+    }
+    .shoeing ul {
+        width: 100%;
+        padding: 0;
+    }
+    .shoeing ul li span {
+        font-size: 1.2em;
+        color: rgb(199, 140, 140);
+        font-weight: bold;
+        width: calc(100% / 2);
+        text-align: start !important;
+    }
+
+    .shoeing ul li p {
+        text-align: center;
+        font-size: 0.9em;
+        margin-top: 5px;
+        width: calc(100% / 4 - 10px) !important;
+    }
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+    width: 100% !important;
+    /* height: 10em; */
+}
+/* img:first-child {
+    height: 20em;
+} */
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}

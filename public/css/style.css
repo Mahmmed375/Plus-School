@@ -1,0 +1,340 @@
+:root {
+    --maincolor: #3f51b5;
+    --btnColor: #cc2e22;
+    --textColor: #fdfdff;
+    --hoverColor: #8a95d4;
+    --bodyColor: #e7e8f0;
+}
+section {
+    margin: 80px 0;
+}
+label {
+    color: #344fe6;
+    font-weight: bolder;
+}
+option {
+    font-size: large;
+}
+body {
+    background-color: var(--bodyColor);
+}
+
+/* start navbar styling */
+.cont {
+    background-color: var(--maincolor);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--textColor);
+}
+.navbar-light .navbar-brand {
+    color: var(--textColor);
+}
+nav div {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hoverColor);
+}
+.navbar-light .navbar-brand:hover {
+    color: var(--hoverColor);
+}
+/* end navbar styling */
+
+/* start section creat-pro */
+.creat-pro {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*  end section creat-pro */
+.form-group {
+    background-color: #fdfdff;
+    border-radius: 7px;
+    box-shadow: -3px 4px 20px 0px #8b8585;
+}
+
+.form-group input {
+    margin: 10px 0;
+}
+.form-group button {
+    margin: auto;
+    margin-top: 20;
+    background-color: var(--maincolor);
+    padding: 5px 50px;
+    display: flex;
+}
+
+.titil {
+    background-color: var(--maincolor);
+    padding: 7px;
+    border-radius: 7px;
+    border: solid 2px #3f51b5;
+}
+h5.titil {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    color: var(--textColor);
+}
+
+.forg a {
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pro {
+    margin: 70px 0;
+}
+
+.mony {
+    display: flex;
+}
+.mony del {
+    display: inline-block;
+    margin-left: -20;
+}
+.card-title {
+    color: var(--maincolor);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+h3 > strong {
+    color: #0ea73c;
+}
+h5 > del {
+    color: #dd3a3a;
+}
+.card {
+    display: flex;
+    justify-content: center;
+}
+.card a {
+    background-color: #344fe6;
+}
+.prod {
+    margin: 15px 0;
+    border: 2px solid #344fe6;
+    transition-duration: 0.5s;
+}
+
+.prod:hover {
+    border-color: #8a95d4;
+    box-shadow: -3px 4px 15px 0px #8b8585;
+}
+.prod:hover .sellcar {
+    opacity: 1;
+}
+.card a:hover {
+    background-color: var(--maincolor);
+}
+
+.profile nav div {
+    justify-content: flex-start;
+}
+
+.profi {
+    background-color: var(--textColor);
+    border-radius: 7px;
+    border: 3px #344fe6 solid;
+}
+.profi button.active.nav-link {
+    background-color: var(--maincolor);
+    color: var(--textColor);
+}
+
+.profi h5 {
+    background-color: var(--maincolor);
+    border-radius: 7px;
+}
+.nav-tabs .nav-link {
+    font-size: larger;
+    font-weight: bold;
+    color: var(--maincolor);
+    border-radius: 7px;
+}
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-info h3 {
+    color: var(--maincolor);
+}
+.creat {
+    background-color: var(--maincolor);
+    border-radius: 7bx;
+}
+.creat a {
+    color: var(--textColor);
+    font-weight: bold;
+    font-size: 20;
+}
+.creat a:hover {
+    color: var(--hoverColor);
+}
+.order {
+    background-color: #30ad55;
+}
+
+.col {
+    color: var(--textColor);
+}
+.masseg {
+    background-color: #8a95d4;
+}
+
+.shopcar {
+    position: relative;
+    bottom: -70px;
+}
+.shopcar i {
+    font-size: 30;
+    color: #fff;
+    padding: 10px;
+    background-color: #344fe6;
+    border-radius: 50%;
+}
+
+.shopcar form button {
+    background-color: #344fe6;
+    color: #fff;
+    font-weight: bold;
+}
+.shopcar form button:hover {
+    background-color: var(--hoverColor);
+}
+.shopcar form {
+    display: flex;
+}
+.shopcar .container {
+    background-color: var(--textColor);
+}
+.sells {
+    color: #344fe6;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.userinfo {
+    color: #344fe6;
+    font-weight: bold;
+    font-size: 20;
+}
+@media (max-width: 768px) {
+    .userinfo {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .sellcar {
+        position: relative;
+        top: -26.5rem;
+        right: 7.5rem;
+        height: 40px;
+        width: 40px;
+        padding: 13;
+        border-radius: 50%;
+        transition-duration: 0.5s;
+        opacity: 1;
+    }
+}
+
+.sellcar {
+    position: relative;
+    top: -26.5rem;
+    right: 7.5rem;
+    height: 40px;
+    width: 40px;
+    padding: 13;
+    border-radius: 50%;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.sellcar i {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.prod-sell {
+    display: inline;
+}
+
+.sell-from-car .container {
+    background-color: var(--textColor);
+}
+.sell-one-product .container {
+    background-color: var(--textColor);
+}
+.card-body .lead {
+    color: #344fe6;
+}
+/* start footer */
+footer {
+    background-color: var(--maincolor);
+    color: var(--textColor);
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer h5 {
+    color: var(--textColor);
+}
+
+.social i {
+    color: var(--textColor);
+    font-size: larger;
+    margin: 20px 15px;
+    display: inline-block;
+}
+.social {
+    margin-top: -10;
+}
+.how-we-ar h5 a {
+    text-decoration: none;
+}
+.products h5 {
+    color: var(--textColor);
+    font-weight: bold;
+}
+.products ul li a {
+    color: var(--textColor);
+}
+.products ul li a:hover {
+    color: var(--hoverColor);
+}
+.usfull-link h5 {
+    color: var(--textColor);
+    font-weight: bold;
+}
+.usfull-link a {
+    color: var(--textColor);
+}
+.usfull-link a:hover {
+    color: var(--hoverColor);
+}
+.contact-us i {
+    margin-left: 15px;
+}
+.contact-us h5 {
+    font-weight: bold;
+}
+.copyright {
+    background-color: #344fe6;
+    margin: auto;
+}
+/* end footer */
